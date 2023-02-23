@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+body{
+    background-color: #dfd5f7;
+    font: 1em sans-serif;
+
+}
+body.active{
+    background-color: #000;
+}
+.cabecalho{
+    display: flex;
+    padding-bottom: 0%;
+    
+}
+.logo{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 100px;
+    max-width: 70px;
+    height: auto;
+}
+.opcao{
+    margin:0 auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    margin-left: 600px;
+}
+.item{
+    margin-top: 8px;
+    margin-left: 70px;
+    text-align: center;
+    padding: 9px;
+    font: 1em sans-serif;
+    padding-bottom: 0%;
+}
+.botao-criativo{
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-top: 7px;
+    display: flex;
+    background-color: rgb(243, 247, 247);
+    width: 75px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.2 ) ;
+    border: 1px solid rgba(27, 27, 27, 0.5);
+    border-left: 1px solid rgba(41, 40, 40, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
+    border: 1px solid white;
+
+}
+.dentro-botao{
+
+    border-radius: 30px;
+    display: flex;
+    background-color: rgb(244, 247, 247);
+    width: 70px;
+    height: 30px;
+    display: flex;
+    box-shadow:inset 0 0 20px 7px rgb(240, 237, 237);
+}
+.esfera-botao{
+    display: block;
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: 5px;
+    position: absolute;
+    align-items: end;
+    height: 27px;
+    width: 27px;
+    background-image:linear-gradient(to right,rgb(46, 45, 45),rgb(14, 14, 13),rgb(59, 58, 58)) ;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0 , 0, 0.5);
+    transition: 0.5s;
+    
+}
+.esfera-botao.active{
+    margin-top: 2px;
+    margin-left: 35px;
+    height: 23px;
+    width: 23px;
+    background-image:linear-gradient(to right,rgb(146, 143, 143),rgb(146, 146, 139),rgb(170, 165, 165),rgb(156, 151, 151),rgb(146, 143, 143),rgb(145, 141, 141),rgb(177, 173, 173),rgb(184, 182, 182)) ;
+    box-shadow: 0px 4px  6px  3px rgba(85, 82, 82, 0.5);
+}
+.esfera-dentro{
+    opacity: 50%;
+    align-items: end;
+    height: 27px;
+    width: 27px;
+    background-image:linear-gradient(to bottom,rgb(61, 60, 60),rgb(59, 59, 58),rgb(150, 144, 144)),#dad0d0 ;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 5px 7px rgba(0, 0 , 0, 0.5);
+    transition: 0.5s;
+
+}
+.esfera-dentro.active{
+    margin-top: 0%;
+    height: 23px;
+    width: 23px;
+    background-image:linear-gradient(to bottom,rgb(44, 43, 43), rgb(104, 101, 101),rgb(117, 117, 115), rgb(170, 166, 166), rgb(182, 178, 178),rgb(194, 189, 189),
+    rgb(218, 212, 212),rgb(241, 236, 236),rgb(211, 208, 208),rgb(180, 177, 177),rgb(150, 147, 147),rgb(138, 135, 135),rgb(109, 107, 107),rgb(75, 73, 73), rgb(49, 49, 49),rgb(37, 37, 37)) ;
+    box-shadow:inset  0px 0px  4px  6px rgba(10, 10, 10, 10);
+    
+}
+.main{
+    margin-bottom: 100px;
+}
+.nome-profissao-botoes{
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 150px;
+    align-items: center;
+  
+}
+
+.nome{
+    
+    font: 3.5em sans-serif;
+  padding: 30px;
+  
+   
+}
+.profissao{
+    
+    padding: 50px;
+    
+    font: 2em sans-serif;
+   
+}
+.botoes-linkedin-github{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    
+}
+
+.github, .linkedin{
+    justify-content: center;
+    margin: 40px;
+    display: flex;
+    padding: 20px;
+    width: 120px;
+    height: 10px;
+    background-color: rgb(202, 201, 209);
+    align-items: center;
+    border-radius: 20px;
+    border: #dfd5f7;
+    font: 1em sans-serif;
+    color:rgb(18, 18, 19);
+}
+
+.email ,
+ .github:hover{
+    color:  #090909;;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.2 ) ;
+    border: 1px solid rgba(27, 27, 27, 0.5);
+    border-left: 1px solid rgba(41, 40, 40, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
+    border: 1px solid white;
+}
+.foto{
+    display: flex;
+    margin-left: 730px;
+}
+.raquel-foto{
+    margin-top: 0;
+    
+    
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1 );
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5 );
+    border-left: 1px solid rgba(255, 255, 255, 0.5 ) ;
+}
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translatey(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    transform: translate(0px);
+    opacity: 1;
+
+}
+.container .card .content h2{
+    position: absolute;
+    top: -120px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.5 );
+}
+.container .card .content h3{
+    font-size: 1.8em;
+    color: #3d3d3f ;
+    z-index: 1;
+}
+.container .card .content p{
+        font-size: 1em;
+        color: #6b6868;
+        font-weight: 300;
+}
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #a3a2a2;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2 );
+}
+.redes-sociais{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    width: 1346px;
+    height: 300px;
+    align-items: center;
+    
+}
+.rede-social{
+    display: flex;
+    padding: 40px;
+    width: 13%;
+}
+.rodape{
+    justify-content: center;
+    display: flex;
+    width: 1346px;
+    height: 300px;
+    background-color: #a1a1a5;
+    align-items: center;
+}
+.logo-rodape{
+    width: 15%;
+}
+

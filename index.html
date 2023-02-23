@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+
+    <title>Portifólio de Raquel Rodrigues</title>
+</head>
+<body>
+    <header class="cabecalho">
+            <img class="logo" src="imagens/logo.png" alt="logo-raquel">
+        <nav class="opcao">
+           <li class="item">Inicio</li>
+           <li class="item">Sobre </li>
+           <li class="item">Contato</li>
+        </nav>
+        <div class="botao-criativo">
+            <div class="dentro-botao">
+                <div class="esfera-botao">
+                    <div class="esfera-dentro"></div>
+                </div>
+               
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div  class="nome-profissao-botoes">
+            <h1 class="nome"> Raquel Rodrigues</h1>
+            <div class="profissao">
+            Desenvolvedora frontend
+           </div>
+           <div class="botoes-linkedin-github">
+            <a href="https://www.linkedin.com/in/raquel-rodrigues-765700212/"> 
+                <button class=" linkedin github ">Linkedin</button>
+            </a> 
+               <button class=" github">Github</button>
+          </div>
+        </div>
+        <div class="foto" >
+            <img class="foto-raquel" src="imagens/raquel.png">
+        </div>
+        
+    </main>
+    <section class="projetos">
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                   <h2>01</h2>
+                   <h3> projeto 1</h3>
+                   <p>Sobre o projeto desenvolvido. Toda explicação 
+                    e linguagens</p>
+               <a href="#">Mais informações</a>
+            </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                 <h2> 02</h2>
+                 <h3> projeto 1</h3>
+                 <p>Sobre o projeto desenvolvido. Toda explicação 
+                    e linguagens.
+                 </p>
+                 <a href="#">Mais informações</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                 <h2> 03</h2>
+                 <h3> projeto 1</h3>
+                 <p>Sobre o projeto desenvolvido. Toda explicação 
+                    e linguagen</p>
+                 <a href="#">Mais informações</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max:10,
+            speed:200,
+            glare:true,
+            "max-glare": 1,
+            
+        })
+        VanillaTilt.init(document.querySelectorAll(".botao-criativo"),{
+            max:25,
+            speed:200,
+            glare:true,
+            "max-glare": 0.1,
+        })
+        VanillaTilt.init(document.querySelectorAll(".dentro-botao"),{
+            max:10,
+            speed:200,
+        })
+        VanillaTilt.init(document.querySelectorAll(".esfera-botao"),{
+           
+        })
+        const modoCriativo = document.querySelector(".esfera-botao" );
+        const body = document.querySelector("body");
+
+        modoCriativo.onclick = function(){
+            this.classList.toggle("active")
+            body.classList.toggle("active")
+        }
+        const modoCriativo2 = document.querySelector(".esfera-dentro" );
+        modoCriativo2.onclick = function(){
+            this.classList.toggle("active")
+           
+        }
+      
+    </script>
+    <section class="redes-sociais">
+        <img class="rede-social" src="imagens/linkedin.png" alt="linkedin">
+        <img class="rede-social" src="imagens/facebook.png" alt="facebook">
+        <img class="rede-social" src="imagens/whatsapp.png" alt="whatsapp">
+        <img class="rede-social" src="imagens/instagram.png" alt="instagram">
+
+    </section>
+    <footer class="rodape">
+        <img class="logo-rodape" src="imagens/logo-rodape.png" alt="logo-rodape">
+
+    </footer>
+    
+</body>
+</html>
