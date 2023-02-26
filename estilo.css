@@ -1,7 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family= Gothic +A1:wght@200 &família= ótimas+vibes & display=swap');
-
+  @import url('https://fonts.googleapis.com/css2? family= Gothic+A1:wght@200 & family= Great+Vibes & display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Great+Vibes&family=Nanum+Myeongjo:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,12 +12,13 @@ li {
 	list-style: none;
 }
 body{
-    background-color: #e2dcf5;
     font: 1em sans-serif;
+
 
 }
 body.active{
-    background-color: #000;
+    background-color: #3d3d3f;
+  /*  background-image: linear-gradient(to bottom, rgb(160, 4, 160),rgb(52, 83, 185),rgb(167, 41, 172),rgb(77, 26, 194),blue)*/
 }
 .cabecalho{
     display: flex;
@@ -43,8 +44,13 @@ body.active{
     margin-left: 70px;
     text-align: center;
     padding: 9px;
-    font: 1em sans-serif;
+    font: 1.1em sans-serif;
     padding-bottom: 0%;
+    color: #312f2f;
+
+}
+.item.active{
+    color: #a3a2a2;
 }
 .botao-criativo{
     border-radius: 30px;
@@ -129,15 +135,18 @@ body.active{
 }
 
 .nome{
-    font-family: 'Great Vibes';
-    font: 3.5em sans-serif;
+    
+    font:  3.5em 'Nanum Myeongjo', serif;
   padding: 30px;
-  
    
+}
+.nome.active{
+    color: #dfd5f7;
 }
 .profissao{
     
     padding: 50px;
+    color: #504d4d;
     
     font: 2em sans-serif;
    
@@ -159,13 +168,16 @@ body.active{
     padding: 20px;
     width: 120px;
     height: 10px;
-    background-color: rgb(202, 201, 209);
+    color: #090909;
     align-items: center;
     border-radius: 20px;
-    border: #dfd5f7;
     font: 1em sans-serif;
+    border: 1px solid #fdf7f7;
     color:rgb(18, 18, 19);
+    box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
 }
+
 
 .email ,
  .github:hover{
@@ -212,6 +224,12 @@ body.active{
     border-top: 1px solid rgba(255, 255, 255, 0.5 );
     border-left: 1px solid rgba(255, 255, 255, 0.5 ) ;
 }
+.projeto1{
+    position: absolute;
+    height:400px ;
+    width: 300px;
+    
+}
 .container .card .content{
     padding: 20px;
     text-align: center;
@@ -232,14 +250,20 @@ body.active{
     color: rgba(255, 255, 255, 0.5 );
 }
 .container .card .content h3{
+   
     font-size: 1.8em;
     color: #3d3d3f ;
     z-index: 1;
+    background: #f3efef;
+    box-shadow: 0 0 100px 100px #f3efef;
+    
 }
 .container .card .content p{
         font-size: 1em;
-        color: #6b6868;
+        color: #131212;
         font-weight: 300;
+        background: #f3efef;
+        box-shadow: 0 0 200px 10px #f3efef;
 }
 .container .card .content a{
     position: relative;

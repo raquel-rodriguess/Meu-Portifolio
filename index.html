@@ -56,6 +56,9 @@
             </div>
             </div>
             <div class="card">
+                  
+                      <img class="projeto1" src="projeto1.png">
+                  
                 <div class="content">
                  <h2> 02</h2>
                  <h3> projeto 1</h3>
@@ -90,9 +93,10 @@
 
     </footer>
     <script>
+        
 
-
-        const animacao = [ ".botao-criativo",".dentro-botao" , ".esfera-botao",".esfera-dentro"]
+        const animacao = [ ".botao-criativo",".dentro-botao" 
+    ]
 
           for (let animar = 0; animar < animacao.length; animar++) {
             var element = animacao[animar];
@@ -109,16 +113,28 @@
                 max:25,
                 speed:200,
                 glare:true,
-                "max-glare": 0.1,
+                "max-glare": 1,
             })
             
+             /*
+
+            document.addEventListener("mousemove", function(e){
+                const esfera = document.querySelector(".esfera-botao")
+                esfera.style.left = e.offsetX + "2px";
+                esfera.style.top = e.offsetX + "2px"
+            })
+           */
             
             const modoCriativo = document.querySelector(".esfera-botao" );
             const body = document.querySelector("body");
+            const item = document.querySelector(".item")
+            const nome =document.querySelector(".nome")
     
             modoCriativo.onclick = function(){
                 this.classList.toggle("active")
                 body.classList.toggle("active")
+                item.classList.toggle("active")
+                nome.classList.toggle("active")
             }
             const modoCriativo2 = document.querySelector(".esfera-dentro" );
             modoCriativo2.onclick = function(){
