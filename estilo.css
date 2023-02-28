@@ -2,7 +2,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
   @import url('https://fonts.googleapis.com/css2? family= Gothic+A1:wght@200 & family= Great+Vibes & display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Great+Vibes&family=Nanum+Myeongjo:wght@700&display=swap');
-*{
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Great+Vibes&family=Monda&family=Nanum+Myeongjo:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Great+Vibes&family=Nanum+Myeongjo:wght@700&family=Syncopate:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bamum:wght@600&family=Syncopate:wght@700&display=swap');
+  *{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -17,12 +20,14 @@ body{
 
 }
 body.active{
-    background-color: #3d3d3f;
+    background-color: #56d9e2;
   /*  background-image: linear-gradient(to bottom, rgb(160, 4, 160),rgb(52, 83, 185),rgb(167, 41, 172),rgb(77, 26, 194),blue)*/
 }
 .cabecalho{
+    margin-top: 20px;
     display: flex;
     padding-bottom: 0%;
+    position: absolute;
     
 }
 .logo{
@@ -54,7 +59,7 @@ body.active{
 }
 .botao-criativo{
     border-radius: 30px;
-    margin-left: 250px;
+    margin-left: 1240px;
     margin-top: 7px;
     display: flex;
     background-color: rgb(243, 247, 247);
@@ -124,20 +129,22 @@ body.active{
 }
 .main{
     margin-bottom: 100px;
+    
 }
 .nome-profissao-botoes{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     position: absolute;
-    margin-left: 150px;
+    margin-left: 80px;
     align-items: center;
   
 }
 
 .nome{
     
-    font:  3.5em 'Nanum Myeongjo', serif;
-  padding: 30px;
+    font:  1.5em 'Syncopate', sans-serif;
+  padding: 20px;
+  color: #a3a0a0;
    
 }
 .nome.active{
@@ -145,14 +152,13 @@ body.active{
 }
 .profissao{
     
-    padding: 50px;
-    color: #504d4d;
+    color: #181717;
     
-    font: 2em sans-serif;
+    font: 3.5em 'Noto Sans Bamum', sans-serif;
    
 }
 .botoes-linkedin-github{
-    margin-left: 45px;
+    margin-left: 100px;
     
     align-content: center;
     display: flex;
@@ -190,11 +196,10 @@ body.active{
 }
 .foto{
     display: flex;
-    margin-left: 730px;
+    margin-left: 670px;
 }
 .raquel-foto{
     margin-top: 0;
-    
     
 }
 
@@ -256,7 +261,6 @@ body.active{
     z-index: 1;
     background: #f3efef;
     box-shadow: 0 0 100px 100px #f3efef;
-    
 }
 .container .card .content p{
         font-size: 1em;
@@ -290,7 +294,7 @@ body.active{
 .rede-social{
     display: flex;
     padding: 40px;
-    width: 13%;
+    width: 10%;
 }
 .rodape{
     justify-content: center;

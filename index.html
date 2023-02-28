@@ -11,11 +11,11 @@
 <body>
     <header class="cabecalho">
             <img class="logo" src="imagens/logo.png" alt="logo-raquel">
-        <nav class="opcao">
-           <li class="item">Inicio</li>
-           <li class="item">Sobre </li>
-           <li class="item">Contato</li>
-        </nav>
+          <!--  <nav class="opcao">
+                <li class="item">Inicio</li>
+                <li class="item">Sobre </li>
+                <li class="item">Contato</li>
+             </nav>-->
         <div class="botao-criativo">
             <div class="dentro-botao">
                 <div class="esfera-botao">
@@ -28,7 +28,7 @@
     </header>
     <main class="main">
         <div  class="nome-profissao-botoes">
-            <h1 class="nome"> Raquel Rodrigues</h1>
+            <h1 class="nome">RAQUEL RODRIGUES</h1>
             <div class="profissao">
             Desenvolvedora frontend
            </div>
@@ -47,6 +47,7 @@
     <section class="projetos">
         <div class="container">
             <div class="card">
+                <img class="projeto1" src="projeto1.png">
                 <div class="content">
                    <h2>01</h2>
                    <h3> projeto 1</h3>
@@ -56,8 +57,6 @@
             </div>
             </div>
             <div class="card">
-                  
-                      <img class="projeto1" src="projeto1.png">
                   
                 <div class="content">
                  <h2> 02</h2>
@@ -95,8 +94,7 @@
     <script>
         
 
-        const animacao = [ ".botao-criativo",".dentro-botao" 
-    ]
+        const animacao = [ ".botao-criativo",".dentro-botao"]
 
           for (let animar = 0; animar < animacao.length; animar++) {
             var element = animacao[animar];
@@ -106,7 +104,7 @@
     
             VanillaTilt.init(document.querySelectorAll([animacao]),{
                 max:20,
-                speed:100,
+                speed:300,
             })
             
             VanillaTilt.init(document.querySelectorAll(".card"),{
