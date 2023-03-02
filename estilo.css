@@ -399,8 +399,14 @@ nav{
         flex-direction: column;
     }
     .card{
-        width:1300px ;
-        height: 5000px;
+        min-width:1200px ;
+        min-height: 1800px;
+    }
+    .projeto1{
+        position: absolute;
+        height:1800px ;
+        width: 1200px;
+        
     }
 
 
