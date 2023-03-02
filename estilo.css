@@ -17,10 +17,9 @@ li {
 body{
     font: 1em sans-serif;
 
-
 }
 body.active{
-    background-color: #56d9e2;
+    background-color: #242a2b;
   /*  background-image: linear-gradient(to bottom, rgb(160, 4, 160),rgb(52, 83, 185),rgb(167, 41, 172),rgb(77, 26, 194),blue)*/
 }
 .cabecalho{
@@ -34,29 +33,10 @@ body.active{
     position: absolute;
     margin-top: 2px;
     margin-left: 100px;
-    max-width: 70px;
+    width: 70px;
     height: auto;
 }
-.opcao{
-    margin:0 auto;
-    margin-right: 0;
-    margin-bottom: 0;
-    display: flex;
-    margin-left: 600px;
-}
-.item{
-    margin-top: 8px;
-    margin-left: 70px;
-    text-align: center;
-    padding: 9px;
-    font: 1.1em sans-serif;
-    padding-bottom: 0%;
-    color: #312f2f;
 
-}
-.item.active{
-    color: #a3a2a2;
-}
 .botao-criativo{
     border-radius: 30px;
     margin-left: 1240px;
@@ -127,10 +107,7 @@ body.active{
     box-shadow:inset  0px 0px  4px  6px rgba(10, 10, 10, 10);
     
 }
-.main{
-    margin-bottom: 100px;
-    
-}
+
 .nome-profissao-botoes{
     text-align: center;
     margin-top: 150px;
@@ -139,12 +116,16 @@ body.active{
     align-items: center;
   
 }
+main{
+    
+  display: flex;
+}
 
 .nome{
     
     font:  1.5em 'Syncopate', sans-serif;
   padding: 20px;
-  color: #a3a0a0;
+  color: #858282;
    
 }
 .nome.active{
@@ -187,7 +168,7 @@ body.active{
 
 .email ,
  .github:hover{
-    color:  #090909;;
+    color:  #090909;
     box-shadow:0 10px 30px rgba(0, 0, 0, 0.2 ) ;
     border: 1px solid rgba(27, 27, 27, 0.5);
     border-left: 1px solid rgba(41, 40, 40, 0.5);
@@ -196,11 +177,95 @@ body.active{
 }
 .foto{
     display: flex;
-    margin-left: 670px;
+    margin-left: 650px;
+   
 }
 .raquel-foto{
     margin-top: 0;
     
+}
+nav{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    height: auto;
+    
+}
+.navegacao{
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(247, 244, 244, 0.2);
+    width: 250px;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5 );
+    border-left: 1px solid rgba(255, 255, 255, 0.5 ) ;
+    margin-bottom: 60px;
+
+}
+
+.navegacao ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+}
+.navegacao ul li{
+    
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    background: rgba(192, 187, 187, 0.9);
+   
+}
+.navegacao ul li a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navegacao ul li a .texto{
+    display: block;
+    font-size: 1.5em;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    color: #181717;
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5em;
+    opacity: 0;
+}
+
+.navegacao ul li:hover a .texto{
+   opacity: 1;
+     transform:translateY(-35px);
+}
+.navegacao ul li:hover a .icone{
+    display: flex;
+    
+}
+
+.item.active{
+    color: #a3a2a2;
 }
 
 
@@ -209,7 +274,7 @@ body.active{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1200px;
+   
     flex-wrap: wrap;
     z-index: 1;
 
@@ -307,4 +372,36 @@ body.active{
 .logo-rodape{
     width: 15%;
 }
+@media screen and (max-width:500px) {
+    body{
+        width: 1400px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .botao-criativo{
+        width: 150px;
+        height: 100px;
+    }
+    .raquel-foto{
+        width: 1000px;
+    }
+    .projetos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7000px;
+    }
+    .container{
+        display: flex;
+        width: 1400px;
+        height: 7000px;
+        flex-direction: column;
+    }
+    .card{
+        width:1300px ;
+        height: 5000px;
+    }
 
+
+}
