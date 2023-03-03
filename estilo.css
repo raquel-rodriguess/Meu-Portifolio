@@ -15,6 +15,7 @@ li {
 	list-style: none;
 }
 body{
+    width: 100%;
     font: 1em sans-serif;
 
 }
@@ -139,16 +140,14 @@ main{
    
 }
 .botoes-linkedin-github{
-    margin-left: 100px;
     
-    align-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
-
     
 }
 
-.github, .linkedin{
+.linkedin-github{
     justify-content: center;
     margin: 40px;
     display: flex;
@@ -166,8 +165,7 @@ main{
 }
 
 
-.email ,
- .github:hover{
+.linkedin-github:hover{
     color:  #090909;
     box-shadow:0 10px 30px rgba(0, 0, 0, 0.2 ) ;
     border: 1px solid rgba(27, 27, 27, 0.5);
@@ -182,6 +180,8 @@ main{
 }
 .raquel-foto{
     margin-top: 0;
+    width: 100%;
+    height: 100%;
     
 }
 nav{
@@ -372,41 +372,135 @@ nav{
 .logo-rodape{
     width: 15%;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     body{
-        width: 1400px;
+        width: 100%;
     }
+    .cabecalho{
+        margin-top: 20px;
+        display: flex;
+        padding-bottom: 0%;
+        position: absolute;
+        justify-content: space-between;
+        
+    }    
     .logo{
-        width: 100px;
+        width: 30%;
+        
     }
     .botao-criativo{
-        width: 150px;
-        height: 100px;
+        margin-top: 0%;
+        width: 90%;
+        height: 90%;
+        margin-left: 390%;
+    }
+    .nome-profissao-botoes{
+        width: 100%;
+        margin: 0%;
+    }
+    main{
+        margin-bottom: 77%;
+        
+    }
+    .nome{
+        width: 100%;
+        font:  100% 'Syncopate', sans-serif;
+        margin-top: 96%;
+
+    }
+    .profissao{
+        padding: 0;
+            width: 100%;
+            height: 100%;
+            font: 100% 'Noto Sans Bamum', sans-serif;
+    }
+    .botoes-linkedin-github{
+        margin: 0;
+        margin-right: 0%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+    .linkedin-github{
+        justify-content: center;
+        margin: 10%;
+        display: flex;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        color: #090909;
+        align-items: center;
+        border-radius: 20px;
+        font: 100% sans-serif;
+        border: 1px solid #fdf7f7;
+        color:rgb(18, 18, 19);
+        box-shadow: 6px 6px 12px #c5c5c5,
+                 -6px -6px 12px #ffffff;
+    }
+    
+    .foto{
+        margin-left: 0;
+        max-width: 100%;
+        height: 100%;
     }
     .raquel-foto{
-        width: 1000px;
+        width: 100%;
+        height: 100%;
+    }
+    .navegacao{
+       
+        background-origin: padding-box;
+        border-radius: 20px;
+        justify-content: space-around;
+        align-items: center;
+        background: rgba(247, 244, 244, 0.2);
+        width: 250px;
+        height: 40px;
+       
     }
     .projetos{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 7000px;
+        
     }
     .container{
         display: flex;
-        width: 1400px;
-        height: 7000px;
+        width: 100%;
+        height: 100%;
         flex-direction: column;
     }
     .card{
-        min-width:1200px ;
-        min-height: 1800px;
+        width:100% ;
+        height: 100%;
     }
     .projeto1{
         position: absolute;
-        height:1800px ;
-        width: 1200px;
         
+        
+    }
+    .redes-sociais{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        
+    }
+    .rede-social{
+        display: flex;
+        padding: 30px;
+        width: 20%;
+    }
+    .rodape{
+        width: 100%;
+        height: 100%;
     }
 
 
