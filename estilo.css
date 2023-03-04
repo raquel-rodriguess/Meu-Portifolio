@@ -27,20 +27,25 @@ body.active{
     margin-top: 20px;
     display: flex;
     padding-bottom: 0%;
+    justify-content:center;
+    align-items: center;
     position: absolute;
+    width:100%;
     
 }
 .logo{
-    position: absolute;
     margin-top: 2px;
-    margin-left: 100px;
+   /* margin-left: 100px;*/
     width: 70px;
     height: auto;
+    margin-right: 40%;
 }
 
 .botao-criativo{
+    margin-left: 40%;
     border-radius: 30px;
-    margin-left: 1240px;
+   /* margin-left: 430%;*/
+   /* margin-left: 1240px;*/
     margin-top: 7px;
     display: flex;
     background-color: rgb(243, 247, 247);
@@ -206,7 +211,7 @@ nav{
     box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
     border-top: 1px solid rgba(255, 255, 255, 0.5 );
     border-left: 1px solid rgba(255, 255, 255, 0.5 ) ;
-    margin-bottom: 60px;
+    bottom: 0;
 
 }
 
@@ -372,7 +377,7 @@ nav{
 .logo-rodape{
     width: 15%;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     body{
         width: 100%;
     }
@@ -385,18 +390,20 @@ nav{
         
     }    
     .logo{
-        width: 30%;
+        width: 13%;
+        margin-left:10%
         
     }
     .botao-criativo{
         margin-top: 0%;
-        width: 90%;
-        height: 90%;
-        margin-left: 390%;
+        margin-left: 0;
+        position: absolute;
+        right: 5%;
+       
     }
     .nome-profissao-botoes{
         width: 100%;
-        margin: 0%;
+        margin: 0;
     }
     main{
         margin-bottom: 77%;
@@ -427,10 +434,9 @@ nav{
    
     .linkedin-github{
         justify-content: center;
-        margin: 10%;
+       
         display: flex;
-        padding: 20px;
-        width: 100%;
+        width: 60%;
         height: 100%;
         color: #090909;
         align-items: center;
