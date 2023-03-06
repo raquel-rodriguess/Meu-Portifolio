@@ -33,16 +33,28 @@ body.active{
     width:100%;
     
 }
+.nome-logo{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
 .logo{
     margin-top: 2px;
    /* margin-left: 100px;*/
-    width: 70px;
+    width: 15%;
     height: auto;
-    margin-right: 40%;
+    
+}
+.raquel-rodrigues{
+    font: 0.9em 'Noto Sans Bamum', sans-serif;
+   
 }
 
 .botao-criativo{
-    margin-left: 40%;
+    margin-left: 60%;
+    margin-right: 5%;
     border-radius: 30px;
    /* margin-left: 430%;*/
    /* margin-left: 1240px;*/
@@ -144,6 +156,10 @@ main{
     font: 3.5em 'Noto Sans Bamum', sans-serif;
    
 }
+.descricao{
+    font: 1.5em 'Noto Sans Bamum', sans-serif;
+    color:#858282 ;
+}
 .botoes-linkedin-github{
     
     display: flex;
@@ -178,6 +194,7 @@ main{
     box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
     border: 1px solid white;
 }
+
 .foto{
     display: flex;
     margin-left: 650px;
@@ -203,7 +220,7 @@ nav{
     border-radius: 20px;
     justify-content: space-around;
     align-items: center;
-    background: rgba(247, 244, 244, 0.2);
+    background: rgba(27, 26, 26, 0.2);
     width: 250px;
     height: 40px;
     display: flex;
@@ -369,7 +386,7 @@ nav{
 .rodape{
     justify-content: center;
     display: flex;
-    width: 1346px;
+    width: 100%;
     height: 300px;
     background-color: #a1a1a5;
     align-items: center;
@@ -377,7 +394,7 @@ nav{
 .logo-rodape{
     width: 15%;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
     body{
         width: 100%;
     }
@@ -389,12 +406,16 @@ nav{
         justify-content: space-between;
         
     }    
+    .nome-logo{
+       margin-left: -50%;
+    }
     .logo{
-        width: 13%;
-        margin-left:10%
+        width: 7%
+       
         
     }
     .botao-criativo{
+        margin-right: 0;
         margin-top: 0%;
         margin-left: 0;
         position: absolute;
@@ -412,14 +433,14 @@ nav{
     .nome{
         width: 100%;
         font:  100% 'Syncopate', sans-serif;
-        margin-top: 96%;
+        margin-top: 100%;
 
     }
     .profissao{
         padding: 0;
             width: 100%;
             height: 100%;
-            font: 100% 'Noto Sans Bamum', sans-serif;
+            font: 2em 'Noto Sans Bamum', sans-serif;
     }
     .botoes-linkedin-github{
         margin: 0;
@@ -466,6 +487,7 @@ nav{
         background: rgba(247, 244, 244, 0.2);
         width: 250px;
         height: 40px;
+        bottom:0;
        
     }
     .projetos{
