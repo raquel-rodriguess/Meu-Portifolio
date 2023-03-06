@@ -48,8 +48,11 @@ body.active{
     
 }
 .raquel-rodrigues{
-    font: 0.9em 'Noto Sans Bamum', sans-serif;
+    font: 1.4em 'Noto Sans Bamum', sans-serif;
    
+}
+.desenvolvedora{
+    font:  .6em 'Syncopate', sans-serif;
 }
 
 .botao-criativo{
@@ -157,7 +160,7 @@ main{
    
 }
 .descricao{
-    font: 1.5em 'Noto Sans Bamum', sans-serif;
+    font: 1.3em 'Noto Sans Bamum', sans-serif;
     color:#858282 ;
 }
 .botoes-linkedin-github{
@@ -407,7 +410,13 @@ nav{
         
     }    
     .nome-logo{
-       margin-left: -50%;
+       margin-left: -40%;
+    }
+    .raquel-rodrigues{
+        font-size: 1em;
+    }
+    .desenvolvedora{
+        font-size: .5em;
     }
     .logo{
         width: 7%
@@ -473,8 +482,10 @@ nav{
         margin-left: 0;
         max-width: 100%;
         height: 100%;
+        margin-top: 50px;
     }
     .raquel-foto{
+       
         width: 100%;
         height: 100%;
     }
