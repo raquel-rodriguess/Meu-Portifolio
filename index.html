@@ -40,10 +40,10 @@
            </p>
            <div class="botoes-linkedin-github">
             <a href="https://www.linkedin.com/in/raquel-rodrigues-765700212/"> 
-                <button class="linkedin-github">Linkedin</button>
+                <button class="linkedin">Linkedin</button>
             </a> 
             <a href="https://github.com/raquel-rodriguess">
-               <button class="linkedin-github" >Github </button>
+               <button class="github" >Github </button>
             </a>
           </div>
         </div>
@@ -66,11 +66,11 @@
         </li>
 
         <li class="item">
-            <a href="#">
+            <a href="#projetos">
                 <span class="icone"> 
-                     <img src="imagens/contate-me.png" alt="contato">
+                     <img src="imagens/projetos.png" alt="contato">
                 </span>
-                <span class="texto">contate-me</span>
+                <span class="texto">Projetos</span>
               </a>
               
          </li>
@@ -86,27 +86,27 @@
         </ul>
     </div>
     </nav>
-    <div class="cards-projetos"> Projetos</div>
+    <div class="cards-projetos"> Projetos </div>
+    <a name="projetos"></a>
     
     <section class="projetos">
         <div class="container">
             <div class="card">
-                <img class="projeto1" src="projeto1.png">
+                <img class="projeto1" src="imagens/projeto1.png">
                 <div class="content">
                    <h2>01</h2>
                    <h3> projeto 1</h3>
-                   <p>Sobre o projeto desenvolvido. Toda explicação 
-                    e linguagens</p>
-               <a href="#">Mais informações</a>
+                   <p>Projeto de site totalmente responsivo, 
+                    utilizando as linguagens javascript nas validação de formulários</p>
+               <a href="https://raquel-rodriguess.github.io/Barbearia_Alura/">Mais informações</a>
             </div>
             </div>
             <div class="card">
                   
                 <div class="content">
                  <h2> 02</h2>
-                 <h3> projeto 1</h3>
-                 <p>Sobre o projeto desenvolvido. Toda explicação 
-                    e linguagens.
+                 <h3> projeto 2</h3>
+                 <p>Em breve
                  </p>
                  <a href="#">Mais informações</a>
                 </div>
@@ -114,26 +114,30 @@
             <div class="card">
                 <div class="content">
                  <h2> 03</h2>
-                 <h3> projeto 1</h3>
-                 <p>Sobre o projeto desenvolvido. Toda explicação 
-                    e linguagen</p>
+                 <h3> projeto 3</h3>
+                 <p>Em breve</p>
                  <a href="#">Mais informações</a>
                 </div>
             </div>
         </div>
+      
     </section>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
     
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
     <section class="redes-sociais">
         <img class="rede-social" src="imagens/linkedin.png" alt="linkedin">
-        <img class="rede-social" src="imagens/facebook.png" alt="facebook">
+        <!--<img class="rede-social" src="imagens/facebook.png" alt="facebook">-->
         <img class="rede-social" src="imagens/whatsapp.png" alt="whatsapp">
-        <img class="rede-social" src="imagens/instagram.png" alt="instagram">
+        <!--<img class="rede-social" src="imagens/instagram.png" alt="instagram"> -->
 
     </section>
     <footer class="rodape">
-        <img class="logo-rodape" src="imagens/logo-rodape.png" alt="logo-rodape">
-
+        <div class=""></div>
+        <div class="logo-copyright">
+            <img class="logo-rodape" src="imagens/logo-rodape.png" alt="logo-rodape">
+            <p class="copyright">© 2022 — 2023 Raquel Rodrigues</P>
+        </div>
     </footer>
     <script>
         
@@ -147,13 +151,13 @@
     
     
             VanillaTilt.init(document.querySelectorAll([animacao]),{
-                max:10,
-                speed:100,
+                max:20,
+                speed:200,
             })
             
             VanillaTilt.init(document.querySelectorAll(".card"),{
                 max:10,
-                speed:100,
+                speed:200,
                 glare:true,
                 "max-glare": 1,
             })
