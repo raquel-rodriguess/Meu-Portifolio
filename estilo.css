@@ -20,7 +20,7 @@ body{
 
 }
 body.active{
-    background-color: #0a0a0a;
+    background-color: #1f1e1e;
  /*  background-image: linear-gradient(to right, rgb(247, 81, 197),rgb(53, 212, 233));*/
 }
 .cabecalho{
@@ -161,6 +161,9 @@ main{
     font: 3.5em 'Noto Sans Bamum', sans-serif;
     font-weight: 900;
    
+}
+.profissao.active{
+    color: rgb(228, 222, 222);
 }
 .descricao{
     font: 1.3em 'Noto Sans Bamum', sans-serif;
@@ -308,6 +311,10 @@ nav{
     transition: 0.5em;
     opacity: 0;
     font-weight: 700;
+}
+.navegacao ul li a .texto.active{
+    color: #dad0d0;
+    text-decoration-color: #dad0d0;
 }
 
 .navegacao ul li:hover a .texto{

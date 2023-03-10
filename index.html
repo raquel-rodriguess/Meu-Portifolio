@@ -174,13 +174,18 @@
             const modoCriativo = document.querySelector(".esfera-botao" );
             const body = document.querySelector("body");
             const item = document.querySelector(".item")
-            const nome =document.querySelector(".nome")
-    
+            const nome = document.querySelector(".nome")
+            const profissao = document.querySelector(".profissao")
+            const textoNavegacao = document.querySelector(".texto")
+           
+            
             modoCriativo.onclick = function(){
                 this.classList.toggle("active")
                 body.classList.toggle("active")
                 item.classList.toggle("active")
                 nome.classList.toggle("active")
+                profissao.classList.toggle("active")
+                textoNavegacao.classList.toggle("active")
             }
             const modoCriativo2 = document.querySelector(".esfera-dentro" );
             modoCriativo2.onclick = function(){
