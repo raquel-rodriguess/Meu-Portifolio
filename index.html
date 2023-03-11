@@ -13,6 +13,7 @@
     <header class="cabecalho">
         <div class="nome-logo">
             <img class="logo" src="imagens/logo.png" alt="logo-raquel">
+            <img class="logo-branco" src="imagens/logo-branco.png" alt="logo-branco">
             <div>
                 <div class="raquel-rodrigues"> Raquel Rodrigues<br> 
                 </div>
@@ -75,7 +76,7 @@
               
          </li>
         <li class="item">
-            <a href="#">
+            <a href="contato.html">
                 <span class="icone"> 
                      <img src="imagens/mensagem.png" alt="">
                 </span>
@@ -139,59 +140,7 @@
             <p class="copyright">© 2022 — 2023 Raquel Rodrigues</P>
         </div>
     </footer>
-    <script>
-        
-
-        const animacao = [ ".botao-criativo",".dentro-botao"]
-
-          for (let animar = 0; animar < animacao.length; animar++) {
-            var element = animacao[animar];
-            
-          }
+    <script src="index.js"></script>
     
-    
-            VanillaTilt.init(document.querySelectorAll([animacao]),{
-                max:20,
-                speed:200,
-            })
-            
-            VanillaTilt.init(document.querySelectorAll(".card"),{
-                max:10,
-                speed:200,
-                glare:true,
-                "max-glare": 1,
-            })
-            
-             /*
-
-            document.addEventListener("mousemove", function(e){
-                const esfera = document.querySelector(".esfera-botao")
-                esfera.style.left = e.offsetX + "2px";
-                esfera.style.top = e.offsetX + "2px"
-            })
-           */
-            
-            const modoCriativo = document.querySelector(".esfera-botao" );
-            const body = document.querySelector("body");
-            const item = document.querySelector(".item")
-            const nome = document.querySelector(".nome")
-            const profissao = document.querySelector(".profissao")
-            const textoNavegacao = document.querySelector(".texto")
-           
-            
-            modoCriativo.onclick = function(){
-                this.classList.toggle("active")
-                body.classList.toggle("active")
-                item.classList.toggle("active")
-                nome.classList.toggle("active")
-                profissao.classList.toggle("active")
-                textoNavegacao.classList.toggle("active")
-            }
-            const modoCriativo2 = document.querySelector(".esfera-dentro" );
-            modoCriativo2.onclick = function(){
-                this.classList.toggle("active")
-               
-            }
-        </script>
 </body>
 </html>
