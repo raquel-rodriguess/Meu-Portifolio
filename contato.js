@@ -38,3 +38,14 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
                 this.classList.toggle("active")
                
             }
+            //Validação de formulario
+            const form = document.getElementById('form');
+            const campos = document.querySelectorAll(".required");
+            const span =document.querySelectorAll(".span");
+            const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+            function nameValidate(){
+              if (campos[0].length <= 3){
+                console.log("O nome deve ter no mínimo 3 caracteres")
+              }
+            }

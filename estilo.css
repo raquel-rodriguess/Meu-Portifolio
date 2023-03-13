@@ -463,20 +463,62 @@ nav{
     border-top: .5px solid rgb(190, 188, 188);
   
 }
+.projeto-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.333%;
+    
+}
+.meus-projetos{
+    font: 1.7em 'Noto Sans Bamum', sans-serif;
+    margin: 10px;
+    font-weight: 900;
+    
+}
+.projeto-rodape a{
+    margin: 10px;
+    
+    
+    color: #464343;
+    
+    font: 1em 'Noto Sans Bamum', sans-serif;
+}
 .logo-copyright{
     justify-content: center;
     align-items: center;
     text-align: center;
    flex-direction: column;
+   width: 33.333%;
 }
 .logo-rodape{
-    width: 5%;
+    width: 9%;
 }
 .copyright{
     color: #686666;
     font: .9em sans-serif;
    
 }
+.recado-email-telefone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.333%;
+}
+.recado{
+    font: 1em 'Noto Sans Bamum', sans-serif;
+    margin: 10px;
+    font-weight: 900;
+    color: rgb(85, 83, 83);
+    margin-bottom: 10px
+}
+.email{
+    font: .9em 'Noto Sans Bamum', sans-serif;
+}
+.telefone{
+    font: .9em 'Noto Sans Bamum', sans-serif;
+}
+
 @media screen and (max-width:700px) {
     body{
         width: 100%;
@@ -612,7 +654,19 @@ nav{
     }
     .rodape{
         width: 100%;
-        height: 200px;
+        height: 400px;
+        flex-direction: column;
+    }
+    .recado-email-telefone{
+        display: flex;
+    }
+    .recado{
+        display: flex;
+    }
+    
+    .logo-rodape{
+        width: 20%;
+        align-self: flex-end;
     }
 
 

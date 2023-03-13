@@ -10,7 +10,7 @@ li {
 	list-style: none;
 }
 body{
-    background-image: url(/imagens/map.avif);
+   
     width: 100%;
     font: 1em sans-serif;
 
@@ -144,44 +144,79 @@ body.active{
     box-shadow:inset  0px 0px  4px  6px rgba(10, 10, 10, 10);
     
 }
-@media screen and (max-width:700px) {
-    body{
-        width: 100%;
-    }
-    .cabecalho{
-        margin-top: 20px;
-        display: flex;
-        padding-bottom: 0%;
-        position: absolute;
-        justify-content: space-between;
-        
-    }    
-    .nome-logo{
-       margin-left: -40%;
-    }
-    .raquel-rodrigues{
-        font-size: 1.3em;
-        font-weight: 900;
-    }
-    .desenvolvedora{
-        font-size: .5em;
-    }
-    .logo{
-        width: 7%
-    }
-    .logo-branco{
-        width: 7%
-    }
-
-    .botao-criativo{
-        margin-right: 0;
-        margin-top: 0%;
-        margin-left: 0;
-        position: absolute;
-        right: 5%;
-       
-    }
+main{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: url(/imagens/map.avif);
 }
+main .vidro{
+    display: flex;
+    transition: 2s;
+    width: 60%;
+    height: 70%;
+   border: 2px solid rgb(245, 242, 242);
+   justify-content: center;
+    align-items: center;
+    align-self: center;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+main div form h2{
+    margin-left: 20px;
+    color: #1f1e1e;
+}
+main div form p{
+    color: #464444;
+    margin: 20px;
+    font-weight: 600;
+}
+input{
+    outline: none;
+    padding: 8px 10px;
+    width: 80%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    
+}
+input:focus{
+    border-color: #f7f2f2;
+}
+.span{
+    display: none;
+}
+textarea{
+    outline: none;
+    padding: 8px 10px;
+    margin-left: 20px;
+    transition: 0.3s;
+    
+}
+textarea:focus{
+    border-color: #9b9999;
+}
+input[type="submit"]{
+    margin-left: 150px;
+    width: 90px;
+    flex-basis: 0;
+    justify-content: center;
+    display: flex;
+    color: #090909;
+    align-items: center;
+    border-radius: 20px;
+    font: 1em sans-serif;
+    border: 1px solid #fdf7f7;
+    color:rgb(18, 18, 19);
+    box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     position: relative;
@@ -267,4 +302,42 @@ nav{
 .navegacao ul li:hover a .icone{
     display: flex;
     
+}
+@media screen and (max-width:700px) {
+    body{
+        width: 100%;
+    }
+    .cabecalho{
+        margin-top: 20px;
+        display: flex;
+        padding-bottom: 0%;
+        position: absolute;
+        justify-content: space-between;
+        
+    }    
+    .nome-logo{
+       margin-left: -40%;
+    }
+    .raquel-rodrigues{
+        font-size: 1.3em;
+        font-weight: 900;
+    }
+    .desenvolvedora{
+        font-size: .5em;
+    }
+    .logo{
+        width: 7%
+    }
+    .logo-branco{
+        width: 7%
+    }
+
+    .botao-criativo{
+        margin-right: 0;
+        margin-top: 0%;
+        margin-left: 0;
+        position: absolute;
+        right: 5%;
+       
+    }
 }
