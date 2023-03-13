@@ -260,7 +260,7 @@ main{
 }
 nav{
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
