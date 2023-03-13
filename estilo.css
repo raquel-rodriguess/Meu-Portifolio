@@ -260,12 +260,13 @@ main{
 }
 nav{
     display: flex;
-    position: fixed;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     z-index: 1;
     height: auto;
+
     
 }
 .navegacao{
