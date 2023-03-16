@@ -41,11 +41,32 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
             //Validação de formulario
             const form = document.getElementById('form');
             const campos = document.querySelectorAll(".required");
-            const span =document.querySelectorAll(".span");
+            const span = document.querySelectorAll(".span");
             const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+             
+            function setError(index){
+              campos[index].style.border = "1px solid #e63636"
+              span[index].style.display = 'block';
+            }
+            function removeError(index){
+              campos[index].style.border = "white";
+              span[index].style.display = 'none';
+            }
 
             function nameValidate(){
-              if (campos[0].length <= 3){
-                console.log("O nome deve ter no mínimo 3 caracteres")
+              if(campos[0].value.length < 3){
+                setError(0);
+              } else{
+                removeError(0)
+              }
+            }
+
+            function emailValidate(){
+              if(emailRegex.test(campos[1].value)){
+                console.log("Email validado")
+                removeError(1)
+              } else{
+                console.log("Email não validado")
+                setError(1);
               }
             }
