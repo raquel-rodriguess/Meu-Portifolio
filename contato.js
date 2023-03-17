@@ -43,6 +43,7 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
             const campos = document.querySelectorAll(".required");
             const span = document.querySelectorAll(".span");
             const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
              
             function setError(index){
               campos[index].style.border = "1px solid #e63636"

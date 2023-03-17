@@ -603,7 +603,6 @@ nav{
         height: 100%;
     }
     .navegacao{
-       
         background-origin: padding-box;
         justify-content: space-around;
         border-radius: 40px;
@@ -611,7 +610,8 @@ nav{
         background: rgba(247, 244, 244, 0.2);
         width: 250px;
         height: 40px;
-        bottom:0;
+        bottom: 1px;
+        
        
     }
     .cards-projetos{
