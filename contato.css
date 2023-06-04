@@ -151,7 +151,11 @@ main{
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-image: url(/imagens/map.avif);
+    background-image: url(/imagens/mapa.jpeg);
+}
+main.active{
+    background-image:url(/imagens/mapa-preto.jpg) ;
+    color:white
 }
 main .vidro{
     display: flex;
@@ -182,6 +186,10 @@ main div form p{
     margin: 10px;
     margin-left: 20px;
     font-weight: 600;
+    
+}
+#paragrafo.active{
+    color: #dad0d0;
     
 }
 input{
