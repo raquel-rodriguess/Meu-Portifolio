@@ -699,3 +699,182 @@ nav{
     }
 
 }
+@media screen and (max-width:1200px) {
+    body{
+        width: 100%;
+    }
+    .cabecalho{
+        margin-top: 20px;
+        display: flex;
+        padding-bottom: 0%;
+        position: absolute;
+        justify-content: space-between;
+        
+    }    
+    .nome-logo{
+       margin-left: -40%;
+    }
+    .raquel-rodrigues{
+        font-size: 3em;
+        font-weight: 900;
+    }
+    .desenvolvedora{
+        font-size: 2em;
+    }
+    .logo{
+        width: 7%
+    }
+    .logo-branco{
+        width: 7%
+    }
+
+    .botao-criativo{
+        margin-right: 0;
+        margin-top: 0%;
+        margin-left: 0;
+        position: absolute;
+        right: 7%;
+    }
+    .nome-profissao-botoes{
+        width: 100%;
+        margin: 0;
+    }
+    main{
+        margin-bottom: 77%;
+        
+    }
+    .nome{
+        width: 100%;
+        font:  3em 'Syncopate', sans-serif;
+        margin-top: 110%;
+
+    }
+    .profissao{
+        padding: 0;
+            width: 100%;
+            height: auto;
+            font: 5em 'Noto Sans Bamum', sans-serif;
+            font-weight: 900;
+    }
+    .botoes-linkedin-github{
+        padding-top: 0;
+        margin-top: 0;
+        margin: 0;
+        margin-right: 0%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .foto{
+        width: 900%;
+        margin-left: 5%;
+        max-width: 100%;
+        height: 100%;
+        margin-top: 10%;
+    }
+    .raquel-foto{
+       
+        width: 130%;
+        height: 130%;
+    }
+    .navegacao{
+        background-origin: padding-box;
+        justify-content: space-around;
+        border-radius: 40px;
+        align-items: center;
+        background: rgba(247, 244, 244, 0.2);
+        width: 250px;
+        height: 40px;
+        bottom: 1px;
+        
+       
+    }
+    .cards-projetos{
+        margin-top: 5%;
+    }
+    .projetos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .card{
+        width:100% ;
+        height: 100%;
+    }
+    .projeto1{
+        position: absolute;
+        
+        
+    }
+    .redes-sociais{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        position: relative;
+        width: 100%;
+        
+        align-items: center;
+        
+    }
+    .rede-social{
+        display: flex;
+        padding: 30px;
+        width: 6em;
+    }
+    .rodape{
+        width: 100%;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    .recado-email-telefone{
+        display: flex;
+        width: 100%;
+    }
+    .recado{
+       margin-top: 5%;
+        display: flex;
+        width: 90%;
+        order: -1;
+       
+    }
+    .meus-projetos{
+        font: 1.7em 'Noto Sans Bamum', sans-serif;
+        margin: 10px;
+        font-weight: 900;
+        display: flex;
+    }
+    .projeto-rodape{
+       display: block;
+        width: 100%;
+        order: 0;
+    }
+    .logo-rodape{
+        align-self: flex-end;
+        width:20%
+    
+    }
+    .logo-copyright{
+        order: 1
+    }
+    .copyright{
+        text-align: center;
+        display: flex;
+        width: 130%;
+        padding: 0;
+    }
+
+}
