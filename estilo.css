@@ -520,7 +520,7 @@ nav{
     font: .9em 'Noto Sans Bamum', sans-serif;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1200px) {
     body{
         width: 100%;
     }
@@ -536,11 +536,11 @@ nav{
        margin-left: -40%;
     }
     .raquel-rodrigues{
-        font-size: 1.3em;
+        font-size: 3em;
         font-weight: 900;
     }
     .desenvolvedora{
-        font-size: .5em;
+        font-size: 2em;
     }
     .logo{
         width: 7%
@@ -554,8 +554,7 @@ nav{
         margin-top: 0%;
         margin-left: 0;
         position: absolute;
-        right: 5%;
-       
+        right: 7%;
     }
     .nome-profissao-botoes{
         width: 100%;
@@ -567,7 +566,7 @@ nav{
     }
     .nome{
         width: 100%;
-        font:  100% 'Syncopate', sans-serif;
+        font:  3em 'Syncopate', sans-serif;
         margin-top: 110%;
 
     }
@@ -575,7 +574,7 @@ nav{
         padding: 0;
             width: 100%;
             height: auto;
-            font: 2em 'Noto Sans Bamum', sans-serif;
+            font: 5em 'Noto Sans Bamum', sans-serif;
             font-weight: 900;
     }
     .botoes-linkedin-github{
@@ -592,15 +591,16 @@ nav{
     }
     
     .foto{
-        margin-left: 0;
+        width: 900%;
+        margin-left: 5%;
         max-width: 100%;
         height: 100%;
-        margin-top: 30px;
+        margin-top: 10%;
     }
     .raquel-foto{
        
-        width: 100%;
-        height: 100%;
+        width: 130%;
+        height: 130%;
     }
     .navegacao{
         background-origin: padding-box;
@@ -699,7 +699,7 @@ nav{
     }
 
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:700px) {
     body{
         width: 100%;
     }
@@ -715,11 +715,11 @@ nav{
        margin-left: -40%;
     }
     .raquel-rodrigues{
-        font-size: 3em;
+        font-size: 1.3em;
         font-weight: 900;
     }
     .desenvolvedora{
-        font-size: 2em;
+        font-size: .5em;
     }
     .logo{
         width: 7%
@@ -733,7 +733,8 @@ nav{
         margin-top: 0%;
         margin-left: 0;
         position: absolute;
-        right: 7%;
+        right: 5%;
+       
     }
     .nome-profissao-botoes{
         width: 100%;
@@ -745,7 +746,7 @@ nav{
     }
     .nome{
         width: 100%;
-        font:  3em 'Syncopate', sans-serif;
+        font:  100% 'Syncopate', sans-serif;
         margin-top: 110%;
 
     }
@@ -753,7 +754,7 @@ nav{
         padding: 0;
             width: 100%;
             height: auto;
-            font: 5em 'Noto Sans Bamum', sans-serif;
+            font: 2em 'Noto Sans Bamum', sans-serif;
             font-weight: 900;
     }
     .botoes-linkedin-github{
@@ -770,16 +771,15 @@ nav{
     }
     
     .foto{
-        width: 900%;
-        margin-left: 5%;
+        margin-left: 0;
         max-width: 100%;
         height: 100%;
-        margin-top: 10%;
+        margin-top: 30px;
     }
     .raquel-foto{
        
-        width: 130%;
-        height: 130%;
+        width: 100%;
+        height: 100%;
     }
     .navegacao{
         background-origin: padding-box;
