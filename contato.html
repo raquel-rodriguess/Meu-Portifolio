@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
     <link rel="stylesheet" href="contato.css">
     <title>Contate-me</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="nome-logo">
             <img class="logo" src="imagens/logo.png" alt="logo-raquel">
             <img class="logo-branco" src="imagens/logo-branco.png" alt="logo-branco">
             <div>
-                <div class="raquel-rodrigues"> Raquel Rodrigues<br> 
+                <div class="raquel-rodrigues"> Raquel Rodrigues<br>
                 </div>
                 <div class="desenvolvedora">Desenvolvedora frontend</div>
             </div>
@@ -23,7 +25,7 @@
                 <div class="esfera-botao">
                     <div class="esfera-dentro"></div>
                 </div>
-               
+
             </div>
         </div>
 
@@ -31,88 +33,93 @@
 
     <main>
         <div class="vidro">
-                <form id="form" action="faleComRaquel">
-                    <h2 class="paragrafo"> Entre em contato</h2>
+            <form id="form" action="faleComRaquel">
+                <h2 class="paragrafo"> Entre em contato</h2>
                 <p class="paragrafo">None:
                     <br>
-                    <input type="text" name="nome" id="nome" required class="required"  placeholder="Digite seu nome" oninput="nameValidate()">
+                    <input type="text" name="nome" id="nome" required class="required" placeholder="Digite seu nome"
+                        oninput="nameValidate()">
                     <label for="nome"></label>
                     <br><span class="span">O nome deve ter no mínimo 3 caracteres</span>
                 </p>
                 <p class="paragrafo">Email:
                     <br>
-                    <input type="email" name="email" id="email" class="required" required placeholder="Digite seu email " oninput="emailValidate()">
+                    <input type="email" name="email" id="email" class="required" required
+                        placeholder="Digite seu email " oninput="emailValidate()">
                     <label for="email"></label>
                     <br> <span class="span"> Digite um email válido</span>
                 </p>
                 <p class="paragrafo">Telefone:
                     <br>
-                    <input type="tel" name="telefone" id="telefone"  class="required" placeholder="Digite seu Telefone ">
+                    <input type="tel" name="telefone" id="telefone" class="required" placeholder="Digite seu Telefone ">
                     <label for="telefone"></label>
                     <br> <span class="span"> Digite um telefone válido</span>
                 </p>
-                <textarea name="mensagem" id="mensagem" cols="50" rows="5"  class="required" required placeholder="Digite sua mensagem aqui"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="5" class="required" required
+                    placeholder="Digite sua mensagem aqui"></textarea>
                 <input type="submit" name="submit" id="submit">
 
-                </form>
-             <h1>Vamos trabalhar lado a lado</h1>
+            </form>
+            <h1>Vamos trabalhar lado a lado</h1>
         </div>
     </main>
-    <nav >
+    <nav>
         <div class="navegacao">
-        <ul class="navegar">
-        <li class="item">
-            <a href="index.html#home">
-              <span class="icone"> 
-                 <img src="imagens/home.png" alt="home">
-              </span>
-              <span class="texto">Home</span>
-            </a>
-            
-        </li>
+            <ul class="navegar">
+                <li class="item">
+                    <a href="index.html#home">
+                        <span class="icone">
+                            <img src="imagens/home.png" alt="home">
+                        </span>
+                        <span class="texto">Home</span>
+                    </a>
 
-        <li class="item">
-            <a href="index.html#projetos">
-                <span class="icone"> 
-                     <img src="imagens/projetos.png" alt="contato">
-                </span>
-                <span class="texto">Projetos</span>
-              </a>
-              
-         </li>
-        <li class="item">
-            <a href="contato.html">
-                <span class="icone"> 
-                     <img src="imagens/mensagem.png" alt="">
-                </span>
-                <span class="texto">mensagem</span>
-              </a>
-              
-        </li>
-        </ul>
-    </div>
+                </li>
+
+                <li class="item">
+                    <a href="index.html#projetos">
+                        <span class="icone">
+                            <img src="imagens/projetos.png" alt="contato">
+                        </span>
+                        <span class="texto">Projetos</span>
+                    </a>
+
+                </li>
+                <li class="item">
+                    <a href="contato.html">
+                        <span class="icone">
+                            <img src="imagens/mensagem.png" alt="">
+                        </span>
+                        <span class="texto">mensagem</span>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
     </nav>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <footer class="rodape">
         <div class="recado-email-telefone">
-            <div class="recado"> Fique á vontade para falar comigo, estarei sempre disponivél para trabalhamos lado á lado.</div>
-        <div class="email"> + 55 84 998372645</div>
-        <div class="telefone">raquelrodriguesv2@gmail.com</div>
+            <div class="recado"> Fique á vontade para falar comigo, estarei sempre disponivél para trabalhamos lado á
+                lado.</div>
+            <div class="email"> + 55 84 998372645</div>
+            <div class="telefone">raquelrodriguesv2@gmail.com</div>
         </div>
-        
+
         <div class="logo-copyright">
             <img class="logo-rodape" src="imagens/logo-rodape.png" alt="logo-rodape">
             <p class="copyright">© 2022 - 2023 <br> Raquel Rodrigues</P>
-        </div>        
-                <div class="projeto-rodape">
-                    <div class="meus-projetos"> Projetos</div>
-                    <a href="https://raquel-rodriguess.github.io/Barbearia_Alura/">Site de barbearia
-                    </a>
-                    <a href="http://"> Projeto2</a>
-                    <a href="http://"> Projeto3</a>
-                </div>
+        </div>
+        <div class="projeto-rodape">
+            <div class="meus-projetos"> Projetos</div>
+            <a href="https://raquel-rodriguess.github.io/Barbearia_Alura/">Site de barbearia
+            </a>
+            <a href="http://"> Projeto2</a>
+            <a href="http://"> Projeto3</a>
+        </div>
     </footer>
     <script src="contato.js"></script>
-    
+
 </body>
+
 </html>
