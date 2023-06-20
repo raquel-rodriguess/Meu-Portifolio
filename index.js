@@ -37,7 +37,8 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
             const desenvolvedora = document.querySelector(".desenvolvedora")
             const logo = document.querySelector(".logo")
             const logoBranco = document.querySelector(".logo-branco")
-
+            const rodape = document.querySelector(".rodape")
+            const recado = document.querySelector(".recado")
             
             modoCriativo.onclick = function(){
                 this.classList.toggle("active")
@@ -50,7 +51,8 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
                 desenvolvedora.classList.toggle("active")
                 logoBranco.classList.toggle("active")
                 logo.classList.toggle("active")
-
+                rodape.classList.toggle("active")
+                recado.classList.toggle("active")
             }
             const modoCriativo2 = document.querySelector(".esfera-dentro" );
             modoCriativo2.onclick = function(){
