@@ -16,7 +16,7 @@ body{
 
 }
 body.active{
-    background-color: #1f1e1e;
+    background-color: black;
     z-index: 1;
  /*  background-image: linear-gradient(to right, rgb(247, 81, 197),rgb(53, 212, 233));*/
 }
@@ -170,6 +170,9 @@ main .vidro{
     border-radius: 20px;
     overflow: hidden;
     
+}
+.vidro.ative{
+    color: #dad0d0;
 }
 form{
     width: 100%;
@@ -326,7 +329,7 @@ nav{
     
 }
 .rodape{
-    margin-top: 7em;
+   
     justify-content: center;
     display: flex;
     width: 100%;
@@ -526,5 +529,50 @@ nav{
                  -6px -6px 12px #ffffff;
         cursor: pointer;
     }
+    .rodape{
+        width: 100%;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    .recado-email-telefone{
+        display: flex;
+        width: 100%;
+    }
+    .recado{
+       margin-top: 5%;
+        display: flex;
+        width: 90%;
+        order: -1;
+       
+    }
+    .meus-projetos{
+        font: 1.7em 'Noto Sans Bamum', sans-serif;
+        margin: 10px;
+        font-weight: 900;
+        display: flex;
+    }
+    .projeto-rodape{
+       display: block;
+        width: 100%;
+        order: 0;
+    }
+    .logo-rodape{
+        align-self: flex-end;
+        width:20%
+    
+    }
+    .logo-copyright{
+        order: 1
+    }
+    .copyright{
+        text-align: center;
+        display: flex;
+        width: 130%;
+        padding: 0;
+    }
+
     
 }
