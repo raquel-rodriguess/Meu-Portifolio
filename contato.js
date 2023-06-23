@@ -23,6 +23,8 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
             const main = document.querySelector("main")
             const paragrafo= document.getElementsByClassName("paragrafo")
             const rodape = document.querySelector(".rodape")
+            
+            const vidro = document.querySelectorAll(".vidro")
             const recado = document.querySelector(".recado")
             
             modoCriativo.onclick = function(){
@@ -37,8 +39,10 @@ const animacao = [ ".botao-criativo",".dentro-botao"]
               main.classList.toggle("active")
               paragrafo.classList.toggle("active")
               rodape.classList.toggle("active")
+              vidro.classList.toggle("active")
               recado.classList.toggle("active")
             }
+
             const modoCriativo2 = document.querySelector(".esfera-dentro" );
             modoCriativo2.onclick = function(){
                 this.classList.toggle("active")

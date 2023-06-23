@@ -19,6 +19,7 @@ body.active{
     background-color: black;
     z-index: 1;
  /*  background-image: linear-gradient(to right, rgb(247, 81, 197),rgb(53, 212, 233));*/
+     color: #f3efef;
 }
 .cabecalho{
     margin-top: 20px;
@@ -341,7 +342,7 @@ nav{
 }
 .rodape.active{
     background-color: #080808;
-    color: #e2dddd;
+    color: white;
 }
 
 .projeto-rodape{
